@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body >
+    <button id="but1" class="bg-dark"><a class="text-warning" href="index.html">pagina principal</a></button>
+    <div id="form0">
+        <div id="form1">
+            <div id="butf">
+                <div id="btn"></div>
+                <button class="text-warning" type="button" id="but2" onclick="login()">Iniciar sesion</button>
+                <button class="text-warning" type="button" id="but2" onclick="registre()">Registrarse</button>
+            </div>
+            <form id="login" class="form2">
+                <input class="text-warning" type="text" id="inputf" placeholder="usuario" min="8" required>
+                <input class="text-warning" type="password" id="inputf" placeholder="contraseña" min="6" required>
+                <input type="checkbox" id="chechf"><span>recordar contraseña</span>
+                <button type="submit" id="submitf">Iniciar sesion</button>
+            </form>
+            <form id="registre" class="form2">
+                <input class="text-warning" type="text" id="inputf" placeholder="usuario" min="8" required>
+                <input class="text-warning" type="email" id="inputf" placeholder="email" required>
+                <input class="text-warning" type="password" id="inputf" placeholder="contraseña" min="6" required>
+                <input type="checkbox" id="chechf"><span>acepto terminos y condiciones</span>
+                <button type="submit" id="submitf">registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    
+    
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("registre");
+        var z = document.getElementById("btn");
+         
+        function registre(){
+            x.style.left= "-400px";
+            y.style.left= "50px";
+            z.style.left= "110px";
+        
+        }
+        function login(){
+            x.style.left= "50px";
+            y.style.left= "450px";
+            z.style.left= "0px";
+        
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+body{
+    background: url(../imagenes/fondo.jpg);
+}
+video{
+    width: 100%;
+}
+.vid1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inic{
+    font-size: 6rem;
+}
+#yout{
+    width: 100%;
+}
+button{
+    inline-size: 100%;
+}
+#porto{
+    width: 100%;
+    text-align: center; 
+}
+#portof{
+    width: 30%;
+}
+#vporto{
+    width: 100%; 
+}
+#super{
+    width: 100%;
+    text-align: center;
+}
+#superf{
+    width: 30%;
+}
+#superfv{
+    width: 100%;
+}
+#puro{
+    width: 100%;
+    text-align: center;
+}
+#purosv{
+    width: 100%;
+}
+#puros{
+    width: 30%;
+}
+#bot1:hover{
+    height: 80px;
+    font-size: 50px;
+    transition: 3s;
+}
+#formulario1{
+    text-align: center;
+}
+#but1{
+    text-decoration-color: red;
+}
+#but1:hover{
+    height: 80px;
+    font-size: 50px;
+    transition: 3s;
+}
+#nav1{
+    display: flex;
+    justify-content: space-evenly
+}
+#instagram{
+    width: 40%;
+    margin: 30%;
+    float: inline-start;
+}
+#instagram:hover {
+width: 180px;
+transition: 3s;
+}
+#youtube{
+    width: 30%;
+    margin: 20%;
+    float: inline-start;
+}
+#youtube:hover{
+    width: 180px;
+    transition: 3s;
+}
+
+#whatsapp{
+    width: 30%;
+    margin: 18%;
+    float: inline-end;
+}
+#whatsapp:hover{
+    width: 180px;
+    transition: 3s;
+}
+#facebook{
+    width: 40%;
+    margin: 25%;
+    float: inline-end;
+}
+#facebook:hover{
+    width: 180px;
+    transition: 3s;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider-box{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0 ;
+    overflow: hidden;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box img{
+    width: 100%;
+    height: 90%;
+}
+@keyframes slide{
+    0%{ margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+
+    40%{margin-left: -200%;}
+    55%{margin-left: -200%;}
+
+    60%{margin-left: -300%;}
+    75%{margin-left: -300%;}
+
+    80%{margin-left: -400%;}
+    100%{margin-left: -400%;}
+}
+
+#form0{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+#form1{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-image: url(../imagenes/fnegro.jpg);
+    padding: 5px;
+    overflow: hidden;
+}
+#butf{
+    width: 240px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+#but2{
+    padding: 15px 20px;
+    font-size: 85%;
+    text-decoration-color: yellow;
+    inline-size: auto;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background:linear-gradient(to top, #ff9100, red );
+    border-radius:30px;
+    transition: .5s;
+}
+.form2{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+#inputf{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+#submitf{
+    width: 85%;
+    padding: 10px 30px;
+    font-size: 100%;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to top, #ff9100, red);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+#chechf{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#registre{
+    left: 450%;
+}
